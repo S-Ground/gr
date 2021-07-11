@@ -1,0 +1,27 @@
+
+.js .alert {
+  display:none
+}
+.alert {
+  padding: 1em 3em;
+  position:relative;
+  background-color: #ff9800;
+  color: white;
+  text-align:center;
+  font-size:.95em;
+}
+.closebtn {
+  position:absolute;
+  top:1em;
+  right:1em;
+  color: white;
+  font-weight: bold;
+  display: block;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.closebtn:hover {
+  color: #414042;
+}

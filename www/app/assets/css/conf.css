@@ -1,0 +1,45 @@
+body {
+    background: #697397;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .exp {
+    margin: 220px auto;
+    width: 85%;
+    position: relative;
+  }
+  
+  .exp label {
+    font-size: 2em;
+    font-family: verdana;
+    color: #B7BECE;
+    text-align: center;
+    display: block;
+  }
+  
+  .exp label span {
+    border: 7px solid #B7BECE;
+    padding: 15px 30px 15px 30px;
+  }
+  
+  .exp label .mas {
+    display: none;
+  }
+  
+  input[type="checkbox"] {
+    display: none;
+  }
+  
+  input[type="checkbox"]:checked + label span {
+    border: 7px solid #fff;
+    color: #fff;
+  }
+  
+  input[type="checkbox"]:checked + label .mas {
+    display: block;
+  }
+  
+  input[type="checkbox"]:checked + label .click {
+    display: none;
+  }
